@@ -1,0 +1,16 @@
+#navbar{
+    z-index: 98;
+    background-color: rgb(187, 176, 248); /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    padding: 30px;
+    width: 100%;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+.navbar-brand{
+  img{
+    height: 75px;
+    width: auto;
+  }
+
+}

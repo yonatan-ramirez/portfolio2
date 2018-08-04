@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Permanent+Marker');
+
+// font-family: 'Archivo Black', sans-serif;
+
+// font-family: 'Permanent Marker', cursive;
+#bg{
+  background: url(../../assets/img/background-1.png), linear-gradient(to left, ( midnightblue, cornflowerblue)) !important;
+  background-size: auto;
+  background-attachment: fixed !important;
+
+}
+#first{
+  padding-top: 12rem !important;
+  padding-bottom: 12rem !important;
+  color:rgb(61, 61, 61);
+  .para{
+    font-weight: 800;
+    // text-shadow: 2px 2px white;
+
+  }
+  .container{
+    width: 100%;
+  #color{
+      font-family: 'Permanent Marker', sans-serif;
+      font-size: 60px;
+      text-shadow: 2px 2px rgb(0, 66, 128);
+      animation-name: shadow;
+      animation-duration: 20s;
+      animation-iteration-count:infinite;
+      animation-delay: 2s;
+      padding-bottom: 1rem;
+      @keyframes shadow {
+       0%{text-shadow: 2px 2px rgb(77, 4, 194);}
+        10%{text-shadow: 2px 2px purple;}
+        20% {text-shadow: 2px 2px violet;}
+        30%{text-shadow: 2px 2px red;}
+        40% {text-shadow: 2px 2px orange;}
+        50% {text-shadow: 2px 2px yellow;}
+        60% {text-shadow: 2px 2px lime;}
+        70% {text-shadow: 2px 2px green;}
+        80%{text-shadow: 2px 2px rgb(0, 128, 62);}
+        90%{text-shadow: 2px 2px rgb(0, 128, 62);}
+        100%{text-shadow: 2px 2px rgb(0, 128, 111);}
+      }
+    }
+  }
+}
+#two{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgba(255, 255, 255, 0.426);
+  .container{
+    width: 100%;
+  }
+  #color{
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px rgb(0, 66, 128);
+    animation-name: shadow;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-delay: 1s;
+    padding-bottom: 3rem;
+    @keyframes shadow {
+     0%{text-shadow: 2px 2px rgb(77, 4, 194);}
+      10%{text-shadow: 2px 2px purple;}
+      20% {text-shadow: 2px 2px violet;}
+      30%{text-shadow: 2px 2px red;}
+      40% {text-shadow: 2px 2px orange;}
+      50% {text-shadow: 2px 2px yellow;}
+      60% {text-shadow: 2px 2px lime;}
+      70% {text-shadow: 2px 2px green;}
+      80%{text-shadow: 2px 2px rgb(0, 128, 62);}
+      90%{text-shadow: 2px 2px rgb(0, 128, 62);}
+      100%{text-shadow: 2px 2px rgb(0, 128, 111);}
+    }
+  }
+  img{
+    height: 300px;
+    width: auto;
+    background-color:lightblue ;
+    border: 1px solid lime;
+    border-radius: 25px;
+  }
+}
