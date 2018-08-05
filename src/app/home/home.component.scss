@@ -4,19 +4,23 @@
 
 // font-family: 'Permanent Marker', cursive;
 #bg{
-  background: url(../../assets/img/background-1.png), linear-gradient(to left, ( midnightblue, cornflowerblue)) !important;
+  background: url(../../assets/img/background-1.png), linear-gradient(to left, ( rgb(54, 54, 252), rgb(109, 160, 255))) !important;
   background-size: auto;
   background-attachment: fixed !important;
 
 }
 #first{
-  padding-top: 12rem !important;
-  padding-bottom: 12rem !important;
+  padding-top: 14rem !important;
+  padding-bottom: 14rem !important;
   color:rgb(61, 61, 61);
   .para{
     font-weight: 800;
-    // text-shadow: 2px 2px white;
+    font-size: 17px;
 
+  }
+  .bold{
+    font-size: 17px;
+    font-weight: 600;
   }
   .container{
     width: 100%;
@@ -27,7 +31,7 @@
       animation-name: shadow;
       animation-duration: 20s;
       animation-iteration-count:infinite;
-      animation-delay: 2s;
+      animation-delay: 1s;
       padding-bottom: 1rem;
       @keyframes shadow {
        0%{text-shadow: 2px 2px rgb(77, 4, 194);}
@@ -57,7 +61,7 @@
     font-size: 60px;
     text-shadow: 2px 2px rgb(0, 66, 128);
     animation-name: shadow;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count:infinite;
     animation-delay: 1s;
     padding-bottom: 3rem;
@@ -75,11 +79,26 @@
       100%{text-shadow: 2px 2px rgb(0, 128, 111);}
     }
   }
+  h2{
+    padding-top: 1rem;
+  }
   img{
-    height: 300px;
+    height: 300px !important;
     width: auto;
-    background-color:lightblue ;
-    border: 1px solid lime;
+    background-color:rgb(77, 113, 128) ;
+    border: 1px solid rgb(32, 54, 117);
     border-radius: 25px;
+  }
+}
+#third{
+  padding-top: 1rem;
+  .container{
+    width: 100%;
+  }
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
   }
 }

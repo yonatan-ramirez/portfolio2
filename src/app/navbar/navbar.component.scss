@@ -1,15 +1,43 @@
 #navbar{
-    z-index: 98;
-    background-color: rgb(187, 176, 248); /* Black background color */
+    z-index: 100;
+    background-color: rgba(71, 70, 73, 0.479); /* Black background color */
     position: fixed; /* Make it stick/fixed */
-    top: -50px; /* Hide the navbar 50 px outside of the top view */
-    padding: 30px;
+    top: -90px; /* Hide the navbar 50 px outside of the top view */
+    padding: 46px;
     width: 100%;
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    transition: top 1s; /* Transition effect when sliding down (and up) */
+
+}
+@media screen and (min-width: 400px) {
+  #navbar{
+      z-index: 100;
+      background-color: rgba(71, 70, 73, 0.479); /* Black background color */
+      position: fixed; /* Make it stick/fixed */
+      top: -90px; /* Hide the navbar 50 px outside of the top view */
+      padding: 50px;
+      width: 100%;
+      transition: top 1s; /* Transition effect when sliding down (and up) */
+
+  }
+}
+
+i{
+  color: white;
+  font-size: 40px;
+}
+a:hover{
+  background-color: gray;
+
+  transition-duration: 0.2s;
+}
+.nav-link{
+  font-size: 30px !important;
+  font-weight: 500;
+  color: white !important;
 }
 .navbar-brand{
   img{
-    height: 75px;
+    height: 80px;
     width: auto;
   }
 
