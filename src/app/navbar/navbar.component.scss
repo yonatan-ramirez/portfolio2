@@ -1,9 +1,9 @@
 #navbar{
-    z-index: 100;
+    top: -60px; /* Hide the navbar 50 px outside of the top view */
+    z-index: 60;
     background-color: rgba(71, 70, 73, 0.479); /* Black background color */
     position: fixed; /* Make it stick/fixed */
-    top: -90px; /* Hide the navbar 50 px outside of the top view */
-    padding: 46px;
+    padding: 10px;
     width: 100%;
     transition: top 1s; /* Transition effect when sliding down (and up) */
 
@@ -20,25 +20,32 @@
 
   }
 }
-
+nav{
+padding-top: 0;
+margin-top: 0;
+}
 i{
   color: white;
   font-size: 40px;
 }
 a:hover{
-  background-color: gray;
-
-  transition-duration: 0.2s;
+  color: yellow !important;
+  transition-duration: 1s;
+  i{
+    color:yellow;
+    transition-duration: 1s;
+  }
 }
 .nav-link{
-  font-size: 30px !important;
-  font-weight: 500;
-  color: white !important;
+  font-size: 25px !important;
+  // font-family: 'Archivo Black', sans-serif;
+  color: white ;
+  border-left: 2px solid white;
 }
-.navbar-brand{
-  img{
-    height: 80px;
+
+img{
+    height: 100px;
     width: auto;
   }
 
-}
+

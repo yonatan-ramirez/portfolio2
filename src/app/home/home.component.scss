@@ -4,7 +4,7 @@
 
 // font-family: 'Permanent Marker', cursive;
 #bg{
-  background: url(../../assets/img/background-1.png), linear-gradient(to left, ( rgb(54, 54, 252), rgb(109, 160, 255))) !important;
+  background: url(../../assets/img/background-1.png), linear-gradient(to left, ( rgb(98, 0, 255), #00ff4c)) !important;
   background-size: auto;
   background-attachment: fixed !important;
 
@@ -12,7 +12,7 @@
 #first{
   padding-top: 14rem !important;
   padding-bottom: 14rem !important;
-  color:rgb(61, 61, 61);
+  color:rgb(92, 85, 85);
   .para{
     font-weight: 800;
     font-size: 17px;
@@ -56,6 +56,18 @@
   .container{
     width: 100%;
   }
+  .col-lg-6{
+    padding:0;
+    margin:0;
+  }
+  .right{
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .aboutp{
+    font-size: 17px;
+    font-weight: 400;
+  }
   #color{
     font-family: 'Permanent Marker', sans-serif;
     font-size: 60px;
@@ -83,7 +95,7 @@
     padding-top: 1rem;
   }
   img{
-    height: 300px !important;
+    height: 330px !important;
     width: auto;
     background-color:rgb(77, 113, 128) ;
     border: 1px solid rgb(32, 54, 117);
@@ -91,6 +103,36 @@
   }
 }
 #third{
+  padding-top: 7rem !important;
+  padding-bottom: 7rem !important;
+  .container{
+    width: 100%;
+  }
+  #color{
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px rgb(0, 66, 128);
+    animation-name: shadow;
+    animation-duration: 20s;
+    animation-iteration-count:infinite;
+    animation-delay: 1s;
+    padding-bottom: 3rem;
+    @keyframes shadow {
+     0%{text-shadow: 2px 2px rgb(77, 4, 194);}
+      10%{text-shadow: 2px 2px purple;}
+      20% {text-shadow: 2px 2px violet;}
+      30%{text-shadow: 2px 2px red;}
+      40% {text-shadow: 2px 2px orange;}
+      50% {text-shadow: 2px 2px yellow;}
+      60% {text-shadow: 2px 2px lime;}
+      70% {text-shadow: 2px 2px green;}
+      80%{text-shadow: 2px 2px rgb(0, 128, 62);}
+      90%{text-shadow: 2px 2px rgb(0, 128, 62);}
+      100%{text-shadow: 2px 2px rgb(0, 128, 111);}
+    }
+  }
+}
+#footer{
   padding-top: 1rem;
   .container{
     width: 100%;

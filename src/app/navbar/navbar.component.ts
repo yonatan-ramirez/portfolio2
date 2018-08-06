@@ -16,10 +16,14 @@ export class NavbarComponent implements OnInit {
 window.onscroll = function() {scrollFunction(); };
 
 function scrollFunction() {
- if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+ if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
    document.getElementById('navbar').style.top = '0';
  } else {
-   document.getElementById('navbar').style.top = '-80px';
+   document.getElementById('navbar').style.top = '-600px';
  }
 }
 
+window.scroll({
+  top: 1000,
+  behavior: 'smooth'
+});
